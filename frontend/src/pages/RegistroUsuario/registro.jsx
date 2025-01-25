@@ -29,12 +29,13 @@ function RegistroUsuario(){
                 body: JSON.stringify(formData),
             })
 
-            localStorage.setItem('usuario',JSON.stringify(formData))
-            localStorage.setItem('token', data.token); //Guardar token y usuario
+
             const data = await response.json(); 
             console.log(formData)
 
             if (response.ok) {
+                localStorage.setItem('usuario',JSON.stringify(formData))
+                localStorage.setItem('token', data.token); 
                 console.log('Usuario registrado exitosamente:', data);
                 Swal.fire({
                     position: "top-center",
@@ -55,7 +56,7 @@ function RegistroUsuario(){
                 });
             }
 
-        }catch{
+        }catch(error){
             console.error('Error en la solicitud:', error);
             Swal.fire({
                 position: "top-center",
