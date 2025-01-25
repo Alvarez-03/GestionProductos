@@ -1,0 +1,31 @@
+#headerContentPrincipal{
+    border-bottom: 2px solid rgb(0, 145, 255);
+}
+nav .Link{
+    margin: 10px;
+    font-size: 18px;
+}
+
+#contentPrincipal{
+    display: grid;
+    margin: 10px;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    justify-content: center;
+    text-align: center;
+    height: 70vh;
+}
+#contentPrincipal h2{
+    font-size: 50px;
+}
+#contentPrincipal p{
+    font-size: 25px;
+}
+#contentPrincipal button{
+    margin: 5px;
+    font-size: 20px;
+}
+#footerPrincipal{
+    display: grid;
+    text-align: center;
+}

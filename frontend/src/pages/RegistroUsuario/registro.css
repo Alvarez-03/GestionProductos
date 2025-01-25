@@ -1,0 +1,44 @@
+#headerRegistro p{
+    font-size: 20px;
+}
+
+#contentRegistro{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+#formRegistro{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+
+#formRegistro input{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+}
+
+#formRegistro button{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+    #formRegistro button:hover{
+        background-color: #005dc1;
+    }
+
+#footerRegistro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
