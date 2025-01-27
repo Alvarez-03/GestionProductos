@@ -9,7 +9,7 @@ function MainPrincipal(){
             <p>Somos un aplicativo web que te permite administrar tu inventario en cualquier lugar.</p>
             <div>
                 <Link to='/registrar'><button className="btn btn-primary"><i className="fa-solid fa-door-open"></i> Probar ahora</button></Link>
-                <a href="YOUTUBE.COM"><button className="btn btn-primary">Ver demostración</button></a>
+                <a href="https://youtu.be/ZjzOX9_jUNk" target="_blank"><button className="btn btn-primary">Ver demostración</button></a>
             </div>
         </main>
     )
